@@ -32,15 +32,37 @@ body {
 	margin: 0 auto;	
 }
 .left-block { 
-	display: inline-block;
+	position: relative;
+	display: inline-block;	
+}
+.image-text {
+	position: absolute;
+	color: #fff;
+	top: 300px;
+	right: 220px;
 }
 .right-block {
+	position: relative;
 	display: inline-block;
 	margin-left: 50px;
 }
+.image-text2 {
+	position: absolute;
+	color: #fff;
+	top: 150px;
+	left: 50px;
+}
 .third-block {
+	position: relative;
 	display: inline-block;
 	margin-left: 50px;
+}
+.image-text3 {
+	position: absolute;
+	color: #fff;
+	top: 50px;
+	left: 50px;
+	font-size: 20px;
 }
 .section1 {	
 	margin-left: 110px;
@@ -49,7 +71,7 @@ body {
 		margin-top: 100px;
 		font-size: 25px;
 }
-.image {
+.image { 
 	width: 400px;
 	margin-top: 25px;
 }
@@ -75,3 +97,7 @@ body {
 	margin-left: 20px;
 }
 
+/*hover examples*/
+.image:hover {
+	transform: scale(1.02);
+}
